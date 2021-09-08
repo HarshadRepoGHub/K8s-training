@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-service
+spec:
+  container:
+  - name: assignment
+    image: arjunachari12/my-python-image
